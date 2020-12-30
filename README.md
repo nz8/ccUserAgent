@@ -10,7 +10,7 @@ on Windows 10. It does so by first locating the latest partial version string (c
 
 The module relies on asynchronous logic and takes a single parameter callback that accepts the latest Chrome on Windows 10 user agent string.
 
-Examples usage:
+Example usage:
 
 ```
 let ccUA=require('./ccUserAgent.js');
