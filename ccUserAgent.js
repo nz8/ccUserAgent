@@ -86,7 +86,7 @@ function determineLatestChromeUAS(lcfv){
 module.exports = function determineLatestChromeUAS_AIO(cb) {
     determineLatestChromePV(function (lcpv) {
         determineLatestChromeFV(lcpv, function (lcfv) {
-            console.log(determineLatestChromeUAS(lcfv));
+            cb(lcfv);
         });
     });
 };
